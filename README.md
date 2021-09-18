@@ -1,1 +1,1 @@
-# NScaudill2020@manchester.edu
+# NSCaudill2020@manchester.edu
