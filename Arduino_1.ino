@@ -22,6 +22,15 @@
   
   modified 8 Sep 2016
   by Colby Newman
+  
+  modified 8 Sep 2016
+  by Nicholas S. Caudill nscaudill2020@manchester.edu
+  
+  
+  An INO file is a software program created for use with Arduino, an open-source electronics prototyping platform.
+  It contains source code written in the Arduino programming language. INO files are used to control Arduino circuit boards[0].
+  [0] https://fileinfo.com/extension/ino
+  
 */
 
 
