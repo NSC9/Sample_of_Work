@@ -1,6 +1,6 @@
 ; these are comments
 ; this script is designed to improve human-machine bandwidth
-; by creating shortcuts, automating repetitive tasks, making periphereals (mouse/keyboard more comfortable
+; by creating shortcuts, automating repetitive tasks, making peripherals (mouse/keyboards) more comfortable
 ; all code is written in AutoHotKey, a programming language for Windows but Linux alternatives exist or one could use wine
 
 #IfWinActive,   Some Windows Application
