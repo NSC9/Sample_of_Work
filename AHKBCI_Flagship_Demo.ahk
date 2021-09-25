@@ -50,7 +50,7 @@ x::  ; this assigns the keyboard button to do several things
     KeyWait, lButton, T0.14; was T0.081   ; Wait 14 miliseconds if left button is pressed
     If ErrorLevel  ; if nothing fails, do this
     {
-        While (GetKeyState("lButton", "P"))   ; do all of this in a loop while left mouse button is held down
+        While (GetKeyState("lButton", "P"))   ; do all of this in a loop while left mouse button is held down... This evaluates ands runs if GetKeyState is true
         {
 
 	   Sendinput {Click}  ; send a left mouse click at current x,y coordinates
