@@ -29,7 +29,7 @@ SetBatchLines -1
 
 x::  ; this assigns the keyboard button to do several things
 	BlockInput, MouseMove  ; while this is executing, all human mouse movements are ignored
-	Critical      # tells the script to stop all other processes and run this immediately
+	Critical      ; tells the script to stop all other processes and run this immediately
 	MouseGetPos xpos, ypos	; stores the current x,y coordinates of ones display as variables xpos and ypos
 	SendInput {Click, 1197, 216, 1}   ; this performs a left mouse click at an x,y coordinate on the computers display
 	Sleep, 20    ; this tells the script to wait 20 miliseconds before running the next line
