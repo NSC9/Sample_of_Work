@@ -40,7 +40,7 @@ void setup()
 // 
 void loop() 
 {
-  for (int i=100; i<= 1000; i = i + 100)
+  for (int i=100; i<= 1000; i = i + 100)   # 
   { 
     digitalWrite(LED, HIGH); // Set the LED pin high
     delay(i);
