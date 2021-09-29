@@ -40,7 +40,9 @@ void setup()
 // 
 void loop() 
 {
-  for (int i=0; i< 256; i++)
+  for (int i=0; i< 256; i++)  // i++ is short for i = i+1
+                               // i-- is short for i = i-1
+                               
   { 
     analogWrite(LED,i);
     delay(1);
