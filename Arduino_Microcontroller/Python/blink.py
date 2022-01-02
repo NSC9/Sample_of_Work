@@ -1,8 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# https://realpython.com/arduino-python/
+# 'pip install pyfirmata' in command prompt/terminal
 
+# In[1]:
 
 import pyfirmata
 import time
