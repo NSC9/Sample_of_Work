@@ -1,1 +1,1 @@
-Calculus I homework using Python programming language, Sympy python library, and using Jupyter Notebook to display LaTex.
+Calculus I homework using the Python programming language, the Sympy external Python library, and Jupyter Notebook Browser IDE to display LaTex.
