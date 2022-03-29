@@ -1,0 +1,5 @@
+
+#  xset -q | grep accel
+#!/bin/bash
+xinput set-prop 12 301 -1
+
