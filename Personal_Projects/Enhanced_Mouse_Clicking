@@ -1,0 +1,37 @@
+; this is a comment for code written in Autohotkey for Windows.
+; this lets you hold down left mouse button to continuously send clicks until you release the left mouse button
+; Sleep,66 might need to be adjusted to account for screen resolution
+; shift+click should allow you to do a normal click or click and drag
+
+*lbutton::
+
+    ; optional runtime enhancers
+    #NoEnv
+    SetWorkingDir %A_ScriptDir%
+    CoordMode, Mouse, Client
+    SendMode Input
+    #SingleInstance Force
+    SetTitleMatchMode 2
+    #WinActivateForce
+    #MaxHotkeysPerInterval 3000
+    SetControlDelay 1
+    SetWinDelay 0
+    SetKeyDelay -1
+    SetMouseDelay -1
+    SetBatchLines -1
+
+    ; main
+    Sendinput {Shift Up}
+    Sendinput {Click}
+    Sleep, 0
+    KeyWait, lButton, T0.105
+    If ErrorLevel
+    {
+        While (GetKeyState("lButton", "P"))
+        {
+           Sendinput {Click}
+           Sleep, 66
+        }
+        KeyWait, lButton
+    }
+    return
