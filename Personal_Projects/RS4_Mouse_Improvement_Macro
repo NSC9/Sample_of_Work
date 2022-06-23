@@ -1,6 +1,5 @@
-; this is a comment for code written in Autohotkey for Windows Operating Systems.
-; this macro/script lets the user hold down left mouse button to continuously send left clicks until user releases the left mouse button
-; Sleep,66 might need to be adjusted to account for screen resolution
+; This is a comment for code written in Autohotkey for Windows Operating Systems denoted by the ';' at the beginning of a line of code.
+; This macro lets the user hold down the left mouse button to continuously send left clicks until the user releases the left mouse button
 ; shift+click should allow you to do a normal click or click and drag
 
 *lbutton::
