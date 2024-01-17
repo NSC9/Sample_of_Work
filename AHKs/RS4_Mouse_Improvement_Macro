@@ -2,6 +2,14 @@
 ; This macro lets the user hold down the left mouse button to continuously send left clicks until the user releases the left mouse button
 ; shift+click should allow you to do a normal click or click and drag
 
+; Donate With Crypto:
+
+; Bitcoin (BTC): bc1q2makllwj2h0shvheekyrsklhsa4syrrzutrmhr
+
+; Litecoin: MDgCMYornMT2Rtho9tjX21wKqpqof6qYkf
+
+; Created by https://github.com/NSC9 - MIT License
+
 *lbutton::
 
     ; optional runtime enhancers
