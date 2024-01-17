@@ -1,3 +1,11 @@
+; Donate With Crypto:
+
+; Bitcoin (BTC): bc1q2makllwj2h0shvheekyrsklhsa4syrrzutrmhr
+
+; Litecoin: MDgCMYornMT2Rtho9tjX21wKqpqof6qYkf
+
+; Created by https://github.com/NSC9 - MIT License
+
 ;  logitech mouse 300 dpi // windows mouse @ 6/11 // stick keys off // 1920x1080p resolution // java runtime parameters -xmx8000m window mousespeed 11
 ;  #Persistent
 ;  SetTimer, WatchCursor, 100
