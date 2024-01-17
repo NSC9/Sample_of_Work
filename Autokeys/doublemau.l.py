@@ -1,8 +1,17 @@
 #must be 0.07 or 0.08
-sleeptime = 0.082
+sleeptime = 0.084
 
 xc2r6 = 1100
 yc2r6 =590
+
+eaglex= 1075
+eagley = 590
+#prayer  interface
+keyboard.send_keys("<f3>")
+time.sleep(sleeptime)
+#eagleprayerclick
+mouse.click_relative(eaglex,eagley,1)
+time.sleep(sleeptime)
 
 #invent
 keyboard.send_keys("<f1>")

@@ -12,7 +12,9 @@ time.sleep(sleep_time)
 #specobr
 mouse.click_relative(a, aa, 1)
 time.sleep(sleep_time)
-
-
+time.sleep(sleep_time)
+#specobr
+mouse.click_relative(a, aa, 1)
+time.sleep(sleep_time)
 #click person
 mouse.click_relative_self(0, 0, 1)

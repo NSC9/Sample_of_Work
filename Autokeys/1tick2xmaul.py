@@ -22,20 +22,11 @@ eagley = 590
 #invent
 keyboard.send_keys("<f1>")
 time.sleep(sleeptime)
-#cspcm
-mouse.click_relative(agsx, agsy, 1)
-time.sleep(sleeptime)
-time.sleep(sleeptime)
-time.sleep(sleeptime)
 
 #specweap
 mouse.click_relative(scmbx, scmby, 1)
 time.sleep(sleeptime)
 
-
-#clickinf
-mouse.click_relative(infx, infy, 1)
-time.sleep(sleeptime)
 #clickperson
 mouse.click_relative_self(0, 0, 1)
 
@@ -48,5 +39,10 @@ mouse.click_relative(eaglex,eagley,1)
 time.sleep(sleeptime)
 #clicks spec orb
 mouse.click_relative(a, aa, 1)
+time.sleep(sleeptime)
+time.sleep(sleeptime)
+#clicks spec orb
+mouse.click_relative(a, aa, 1)
+
 
 
