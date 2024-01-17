@@ -1,12 +1,9 @@
 https://autokey.github.io/
 
-Scripts I use for a competitive advantages while player-killing in OSRS Old School Runescape. This runs on my Linux Mint box. 
+Scripts I use for competitive advantages while player-killing (pking) in OSRS Old School Runescape. This runs on my Linux Ubuntu Mint box. 
 
 Donate With Crypto:
-Bitcoin (BTC): bc1qtrjmtsfxhmjmu4wwdh03u92gpy662rnt3drlm7
-
-Ethereum (ETH): 0x8B20704BB59E985Ad85D2477A9aB85a6F499F9E8
-
-Binance (BNB/BEP20): 0x8B20704BB59E985Ad85D2477A9aB85a6F499F9E8
+Bitcoin (BTC): bc1q2makllwj2h0shvheekyrsklhsa4syrrzutrmhr
+Litecoin: MDgCMYornMT2Rtho9tjX21wKqpqof6qYkf
 
 Created by https://github.com/NSC9 - MIT License
