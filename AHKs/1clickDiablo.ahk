@@ -78,23 +78,21 @@
            ; this section is dedicated to Cold/Shadow Imbuements. If I was doing a boss, Cold Imbuement would be assigned to key "a" in the ingame ability bar. 
            ; I manually swap them depending on what combat I am doing. 
            ; I change the value of the modulus number (e.g. 15) to choose when to cast the non-priority cooldown.
-           if Mod(i,15) != 0
+           ; the point is to have the time scaled/stretched/manipulated to optimize imbuement ability up-time.
+           ; these line redefines our variable to account for cycle lag between the priority and non-priority cooldowns to optimize boosted damage up-times. 
+           if Mod(i,27) != 0
 	     {
 	        sendinput {a}
            } else {
               sendinput {b}
-
-              ; this line redefines our variable to account for cycle lag between the priority and non-priority cooldowns to optimize boosted damage up-times. 
-              i = i - 10
            }
 
            ; this section specifies when to redrink a health potion to refresh the ability Unstable Exixirs and when to cast Dash to refresh the damage boosts gained from the legendary paragon Tricks of the Trade
-           if Mod(k,40) = 0
+           if Mod(k,80) = 0
            {
               sendinput {f}
               Sleep, 30
               sendinput {c}
-              Sleep, 30
            }
 	     Sleep, 30
 
