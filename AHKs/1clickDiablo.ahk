@@ -101,7 +101,7 @@
 	     Sleep, 30
            ; the key "Space" or spacebar casts the ability Evade
 	     sendinput {Space}
-         Sleep, 30
+           Sleep, 30
            ; the key "q" casts the ability Puncture
 	     sendinput {q}
 	     Sleep, 30
@@ -110,3 +110,5 @@
         KeyWait, lButton
     }
     return
+	
+; final note: I find it best to autocast Dash/Shadow Imbue for trash and autocast Shadow Step/Cold Imbue for final bosses.
