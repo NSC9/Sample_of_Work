@@ -111,4 +111,4 @@
     }
     return
 	
-; final note: I find it best to autocast Dash/Shadow Imbue for trash and autocast Shadow Step/Cold Imbue for final bosses.
+; final note: I find it best to autocast Dash/Shadow Imbue for trash and autocast Shadow Step/Cold Imbue for final bosses. This means manually swapping these abilities on the ability bar before combat encounters.
