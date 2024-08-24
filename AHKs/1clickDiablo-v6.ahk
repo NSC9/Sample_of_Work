@@ -4,11 +4,17 @@
 
 ; this script is made by Professor Caudill at https://github.com/NSC9/Sample_of_Work. Direct message me on X/Twitter https://x.com/TheAI2C for questions. A video was made showcasing this script at https://www.youtube.com/@AI2C
 
+; Reminder to change file extensions to ".ahk" and ensure file is saved as "all types." 
+
+; For the paranoid, change the file name to something innocuous or run the game on a virtual machine with a lot of RAM. 
+
+
 ; Tips are accepted at these crypto addresses:
 
 ; Bitcoin (BTC): bc1qsnvyh62qavqgn4xgq2qravy2uysav3z0qp4nym
 
 ; Litecoin (LTC): ltc1qx4dsvmrddg6rgefcy22ts0hamjene8a9mvmyma
+
 
 #IfWinActive, Diablo IV 
 
