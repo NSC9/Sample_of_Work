@@ -53,7 +53,6 @@ action() {
         Sleep, n
         sendinput {f} ; change to your desired hotkey (this is health potion for me)
         Sleep, 6*n     
-        lastFPress := A_TickCount 
         SetTimer, RunAction, 110
     } else {
         SetTimer, RunAction, Off 
