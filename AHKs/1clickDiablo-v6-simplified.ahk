@@ -23,23 +23,13 @@
 #Persistent  
 
 toggle := false
-lastFPress := 0
 n := 100  
 
 action() {
-    global toggle, lastFPress
+    global toggle
 
     if (toggle = true)
     {
-        if (A_TickCount - lastFPress >= 10000)
-        {
-            lastFPress := A_TickCount              
-            sendinput {f} ; change to your desired hotkey (this is health potion for me)
-            Sleep, n
-            sendinput {c} ; change to your desired hotkey (this is shadow step for me)
-            Sleep, n
-        }
-
         sendinput {r} ; change to your desired hotkey (this is shadow clone for me)
         Sleep, n
         sendinput {c} ; change to your desired hotkey (this is shadow step for me)
