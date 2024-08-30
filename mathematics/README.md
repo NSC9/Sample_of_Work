@@ -16,10 +16,9 @@ Created by https://github.com/NSC9 - MIT License
 
 pip install sympy==1.12
 
-Add all three files to jupyter notebook directory.
+Download and move both files into your jupyter notebook directory.
 
-mymath.py is an importable version of mathematics.ipynb
+mymath.py is imported, refreshed, and ran in mathematics_shortened.ipynb
 
-mathematics_shortened.ipynb is a jupter notebook script that runs everything in four lines of code. 
+To edit the mathematical problem generator, edit mymath.py, save, and restart mathematics_shortened.ipynb's kernel
 
-To edit the mathematical problem generator, edit mymath.py or edit mathematics.ipynb and copy the code and paste into mymath.py
