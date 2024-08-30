@@ -64,7 +64,7 @@ def dtest():
 dcount=0
 while derror == True: 
     dcount+=1
-    print("...generating derivative %s"%dcount)
+    # print("...generating derivative %s"%dcount)
     output1 = dtest()
 ierror = True
 def itest():
@@ -86,7 +86,7 @@ def itest():
 icount = 0
 while ierror == True:
     icount+=1
-    print("...generating integral %s"%icount)
+    # print("...generating integral %s"%icount)
     output2 = itest()
 
 questionmark = Symbol('?')
