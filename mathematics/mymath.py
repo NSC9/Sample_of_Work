@@ -26,7 +26,7 @@ def randvar(i):
 
 def dmain(x):
     def random_math(x): 
-        funs = [power,power,sqrt,cbrt]#,ln,exp,sin,cos,tan]   
+        funs = [power,power,sqrt,cbrt,ln,exp,sin,cos,tan]   
         operations = [f(g(x))+h(x)*j(x)]
         operation = operations[random.randrange(0,len(operations))]
         return [[[[operation.replace(f, i) for i in funs]\
@@ -37,7 +37,7 @@ def dmain(x):
     return random_math(x)
 def imain(x):
     def random_math2(x):  
-        funs = [power,power,sqrt,cbrt]#,ln,exp,tan,cos,sin]   
+        funs = [power,power,sqrt,cbrt,ln,exp,tan,cos,sin]   
         operations = [f(x)+h(x)]
         operation = operations[random.randrange(0,len(operations))]
         return [[[[operation.replace(f, i) for i in funs]\
