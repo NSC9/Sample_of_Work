@@ -9,3 +9,5 @@ Caudill. N. S. (2024c). Thus Spoke Siddhartha. Automated Intelligence Community 
 Caudill. N. S. (2024d). The Future of Society, Warfare, & Implications. Automated Intelligence Community College. https://doi.org/10.5281/zenodo.11725971
 
 Caudill. N. S. (2024e). Text-to-video Large-language Models in Cybercrime Litigations: Theoretical Applications & Ethics. Automated Intelligence Community College. https://doi.org/10.5281/zenodo.12512162
+
+Caudill, N. (2024f). Rethinking the Design of Large-Language Models. Automated Intelligence Community College. https://doi.org/10.5281/zenodo.13644311
