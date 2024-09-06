@@ -1,0 +1,1 @@
+key(BTN_LEFT).if_tap(hold(key(BTN_LEFT)),repeat(4, key(BTN_LEFT).w(48)), 90)
