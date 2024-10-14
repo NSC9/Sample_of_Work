@@ -52,7 +52,7 @@ return
     return
 
 
-; ags maul
+; ags maul or wack/double maul (known bug: 1/100th chance to randomly click 100 pixels above desired spot)
 g::
 	#NoEnv
         SetWorkingDir %A_ScriptDir%
