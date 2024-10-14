@@ -6,7 +6,7 @@
 ;  *capslock::shift
 
 ; this block of code allows one to shift-drag items while still being able to spam click
-; whileleft mouse button is held down. 
+; while the left mouse button is held down. 
 *Shift::
     if (A_PriorHotkey = A_ThisHotkey && A_TimeSincePriorHotkey < 500)
         return  ; Prevents action if the Shift key was recently pressed
