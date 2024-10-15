@@ -20,12 +20,12 @@ SetBatchLines -1
 ;  *capslock::shift
 
 ; this block of code allows one to shift-drag items while still being able to spam click
-; whileleft mouse button is held down. 
+; while the left mouse button is held down. 
 *Shift::
     if (A_PriorHotkey = A_ThisHotkey && A_TimeSincePriorHotkey < 500)
         return  ; Prevents action if the Shift key was recently pressed
     Send, {LButton Down}  ; Send left mouse button down click
-    Sleep, 200            ; Wait for 800 milliseconds
+    Sleep, 200            ; Wait for 200 milliseconds
     Send, {LButton Up}    ; Send left mouse button up click
 return
 
