@@ -1,6 +1,7 @@
 ; this line is a comment.
 ; this code is for an Autohotkey script that works on the Windows 11 operating system. If you download Autohotkey, you must use the deprecated AHK version v1.1. 
 ; for Authotkey Installation, how to get the script running, and information on cyber security, see https://youtu.be/5g4filjx7eM?si=xZb8A3qP6wVRYuFZ
+; It is recommended that the name of this file be changed on your local machine before use.
 ; The source code for this Authotkey script is located at https://github.com/NSC9/Sample_of_Work/tree/Main/AHKs/rs6.ahk
 
 ; Donate With Crypto:
