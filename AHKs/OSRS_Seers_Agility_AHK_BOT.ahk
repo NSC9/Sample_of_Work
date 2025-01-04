@@ -1,6 +1,6 @@
 ; AHK version 1.1.37.02
 
-; a useful autohotkey agility bot for seer's village course in the game old school runescape. Requires Runelite Object Marker Plugin with objects colored in full with hex color #FFCF00EF. This script scans the user's computer screen from bottom to top. Thus, in-game compass should be pointed north or north-east. Randomization anti-cheat features are included to obfuscate the frequency and location of clicks. Runelite Camera plugin which increases outer zoom limit may also be helpful. 
+; a useful autohotkey agility bot for seer's village course in the game old school runescape. Requires Runelite Object Marker Plugin with objects colored in full with hex color #FFCF00EF. This script scans the user's computer screen from bottom to top. Thus, in-game compass should be pointed north or north-east. Randomization anti-cheat features are included to obfuscate the frequency and location of clicks. Runelite Camera plugin which increases outer zoom limit may also be helpful but would require adjustments to lines 70-71. 
 
 
 
