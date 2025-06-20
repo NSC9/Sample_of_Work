@@ -1,17 +1,4 @@
 #IfWinActive, RuneLite
-#NoEnv
-SetWorkingDir %A_ScriptDir%
-CoordMode, Mouse, Client
-SendMode Input
-#SingleInstance Force
-SetTitleMatchMode 2
-#WinActivateForce
-#MaxHotkeysPerInterval 3000
-SetControlDelay 1
-SetWinDelay 0
-SetKeyDelay -1
-SetMouseDelay -1
-SetBatchLines -1
 tab::Suspend
 
 LButton::
